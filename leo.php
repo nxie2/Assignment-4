@@ -17,14 +17,17 @@
 </aside>
 
 <main>
-	<h2>Background</h2>
-	<p> 
-	My name is Leonard Koblence and I am from Miami, Florida. I spent most of my life travelling and living between both Miami and the New York City area. I have one younger sibling, and two parents who are European immigrants; France and Latvia respectively. I enjoyed athletic pursuits from an early age and by the time I reached middle school, I was fully committed to being a tennis player. I competed throughout middle school and high school in order to earn a national rank. </p>
+	<section class="design">
+		<article class="item">
+			<h2>Background</h2>
+			<p>My name is Leonard Koblence and I am from Miami, Florida. I spent most of my life travelling and living between both Miami and the New York City area. I have one younger sibling, and two parents who are European immigrants; France and Latvia respectively. I enjoyed athletic pursuits from an early age and by the time I reached middle school, I was fully committed to being a tennis player. I competed throughout middle school and high school in order to earn a national rank. </p>
+		</article>
 
-	<h2>Before College</h2>
-	<p> 
-	In high school, I continued to play tennis and train hard to hopefully play at the varsity level in college. I also developed a love for computers and technology which was reflected in some classes I took on IT in high school. I tried to learn about topics like networking, system administration, and how data centers work. After getting through with my SATs, I began applying to various colleges with the University of Rochester being a top pick of mine. After finding out that I got accepted to the school, and was recruited to the varsity tennis team, I hastily accepted the opportunity and began studying at the school soon after graduating from high school.
- </p>
+		<article>
+		<h2>Before College</h2>
+		<p>I developed a love for computers and technology which was reflected in some classes I took on IT in high school. I tried to learn about topics like networking, system administration, and how data centers work. After getting through with my SATs, I began applying to various colleges with the University of Rochester being a top pick of mine. After finding out that I got accepted to the school, and was recruited to the varsity tennis team, I hastily accepted the opportunity and began studying at the school soon after graduating from high school.</p>
+		</article>
+	</section>
  
  	<h2>School/Internships</h2>
  	<p> 
