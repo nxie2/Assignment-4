@@ -1,24 +1,34 @@
+*{
+	background-color: rgb(254, 254, 194);
+	color: rgb(26, 112, 125)
+}
+ .hp{
+ 	padding-left: 5px;
+ }
 .is-current {
 	background-color: black;
 	color: white;
 }
 
-.container
-{ margin: 0 auto;
-width: 90%;
-max-width: 960px;
-display: grid;
-grid-template-columns: 280px 1fr 200px;
-}
+.container {
+	margin:  auto;
+	width:90%;
+	max-width: 960px;
 
+	display:grid;
+
+	grid-template-columns:260px 1fr 200px;
+}
 
 header {
 	grid-column: 1/2 ;
+
 }
 
 header a {
 	display: block;
 	position: relative;
+	color: rgb(26, 112, 125)
 }
 
 header h1 {
@@ -27,9 +37,20 @@ header h1 {
 	z-index: 100;
 	top: 100px;
 	left: -155px;
+	color: rgb(26, 112, 125)
+
 }
 
-main {grid-column: 1/4;}
+
+
+main {grid-column: 1/4;
+
+
+}
+
+p {
+	color: rgb(0, 139, 161);
+}
 
 footer{ grid-column: 1/2
  }
@@ -37,28 +58,41 @@ footer{ grid-column: 1/2
 aside {grid-column: 2/4;
 align-self: end; }
 
-nav {grid-column: 2/4;}
+nav {
+	grid-column: 2/4;
 
-nav ul { display: flex;
-justify-content: flex-end;
 }
 
-nav li { margin-left: 20px ; }
+nav a{
+	text-decoration: none;
+}
+nav ul { display: flex;
+justify-content: flex-end;
+	list-style-type: none;
+	text-decoration: none;
+}
 
+nav li { margin-left: 20px ; 
+border: 5px solid;
+
+}
 header {font-family: 'Staatliches', cursive;}
 
 aside {font-family: 'Baloo Thambi', cursive;}
 
 main {font-family: 'Nunito', sans-serif;}
 
-footer {font-family: 'Nunito', sans-serif;}
+footer {font-family: 'Nunito', sans-serif;
+font-weight: bold;}
 
 h2 {
    font-style: normal;
    font weight: 800;
-   border style: outset;
-   border width: thick;
-   color: #696969;
+   border-bottom: 2px solid red;
+   color: rgb(26, 112, 125)
+   display:flex;
+   
+
 }
 
 div {
@@ -66,7 +100,21 @@ div {
    font-size: 16px;
    font-family: Arial, Helvetica, sans-serif;
    line-height: 1.5em
-   color: black;
+   
 }
 	
-	
+
+
+.menu a:hover{
+	color: red;
+	font-style: bold;
+	font-size: 20px;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+}
+.row {
+	display: flex;
+}

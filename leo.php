@@ -1,7 +1,6 @@
 <?php include "inc/top.inc"; ?>
 	<title>Leonard L Koblence | Lab 2: Flash Website</title>
 	<?php include "inc/links.inc"; ?>
-	
 	<header>
 		<a href="index.php">
 		<h1>Leonard L Koblence</h1>
@@ -38,8 +37,10 @@
  	<h2>Interests</h2>
  	<p>
  	Outside of school work, I enjoy doing things on my own time. One of my hobbies is tennis, which I started playing at a young age. Additionally, I also have a love for computers and technology, which is reflected in my computer science minor. Outside of these activities, I like to relax and hang out with friends. I also enjoy traveling. The summer before going to college I was lucky enough to travel to some countries in Africa, mainly Morocco, and experience the rich and diverse culture there.
+ 	</p>
 
 
 </main>
 
 <?php include "inc/bottom-and-nav.inc"; ?>
+
