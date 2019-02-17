@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
+<?php include "inc/top.inc"; ?>
 	<title>Shafiuel Alam | Lab 2: Flash Website</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Nunito|Staatliches" rel="stylesheet">
-</head>
-
-<body class="container">
-	
+	<?php include "inc/links.inc"; ?>
 	<header>
 		<a href="index.php">
 		<h1>Shafiuel Alam</h1>
@@ -51,21 +43,4 @@
 
 </main>
 
-<footer>CSC 174: Advanced Front-end Web Design and Development</footer>
-    
-<nav>
-	<ul> 
-		<li><a href="index.html">Home</a></li>
-		<li><a href="shafieul.html">Shafieul Alam</a></li>
-		<li><a href="yiqun.html">Yiqun Ding</a></li>
-		<li><a href="leo.html">Leo Koblence</a></li>
-
-	</ul>
-</nav>
-
-<script src="//code.jquery.com/jquery.js"></script>
-<script src="js/menu-highlighter.js"></script>
-
-</body>
-
-</html>
+<?php include "inc/bottom-and-nav.inc"; ?>

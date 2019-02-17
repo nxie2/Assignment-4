@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php include "inc/top.inc"; ?>
 	<title>Home Page|Lab 02 Flash Website</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Nunito|Staatliches" rel="stylesheet">
-</head>
-<body>
+	<?php include "inc/links.inc"; ?>
 <h1>Home</h1>
 
 <h2>Shafieul Alam</h2>
@@ -35,18 +30,4 @@
 
 <div>History Major and Comp Sci Minor at the University of Rochester.</div>
 
-<nav>
-	<ul> 
-		<li><a href="index.html">Home</a></li>
-		<li><a href="shafieul.html">Shafieul Alam</a></li>
-		<li><a href="yiqun.html">Yiqun Ding</a></li>
-		<li><a href="leo.html">Leo Koblence</a></li>
-
-	</ul>
-</nav>
-
-<script src="//code.jquery.com/jquery.js"></script>
-<script src="js/menu-highlighter.js"></script>
-
-</body>
-</html>
+<?php include "inc/bottom-and-nav.inc"; ?>
