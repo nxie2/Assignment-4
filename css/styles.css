@@ -110,10 +110,11 @@ div {
 
 .column {
 	flex: 33.33%;
-	padding: 5px;
+	padding: 10px;
 }
 .row {
 	display: flex;
+	padding:10px;
 }
 .design {
 	display: grid;
