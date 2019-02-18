@@ -1,9 +1,7 @@
-<div class="hp">
-
 <?php include "inc/top.inc"; ?>
 	<title>Home Page|Lab 02 Flash Website</title>
 	<?php include "inc/links.inc"; ?>
-	
+<div class="hp">
 <h1 class="home">Home</h1>
 
 
