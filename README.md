@@ -7,4 +7,5 @@ Also the website is a short introduction of a person, when 'Amatic SC', cursive 
 ## Readability 
 I changed the background color to grey and the text color to black to show contrast of the website. It helps readers to focus more on the content and when they read it they are less likely to get tired becasue the orginal blackground color yellow is boring. 
 
-
+## Readability 
+I increased the font-side of the text because I thought the orginal font-size was too small for readers to read
